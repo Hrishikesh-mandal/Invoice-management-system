@@ -2,6 +2,11 @@
 
 A full-stack invoice management app built as a course assignment — React/Tailwind frontend, Express/PostgreSQL backend, JWT auth with role-based access control.
 
+# Screenshots
+
+![File Upload Manager login](./screenshots/login.png)
+![File Upload Manager dashboard](./screenshots/dashboard.png)
+
 ## Features
 
 **Dashboard**
