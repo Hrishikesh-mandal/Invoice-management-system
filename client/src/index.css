@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-body bg-[#F7F8FA] text-slate-800;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading;
+}
+
+/* Visible keyboard focus, kept consistent across interactive elements */
+:focus-visible {
+  outline: 2px solid #1F6F5C;
+  outline-offset: 2px;
+}
