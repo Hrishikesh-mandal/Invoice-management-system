@@ -166,8 +166,3 @@ npm test
 - **API architecture** — auth, role enforcement, listing/filtering/sorting correctness
 - **Form handling** — Create Invoice validation (client and server)
 - **Table performance** — response time and pagination correctness at 250+ row scale
-
-## Known Limitations
-
-- "Download Invoice" uses the browser's print dialog (can save as PDF manually) rather than generating a formatted PDF server-side.
-- No frontend test suite — backend is covered by Jest/Supertest; the React app has no Vitest/RTL tests.
